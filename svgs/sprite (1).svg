@@ -1,0 +1,65 @@
+<svg width="0" height="0">
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 203 71" id="line-art1">
+    <path d="M0 70H192C197.523 70 202 65.5228 202 60V11C202 5.47715 197.523 1 192 1H175H144" stroke="#00563B" stroke-width="2"></path>
+  </symbol>
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 118 77" id="line-art2">
+    <path d="M20.5506 1H6C3.23858 1 1 3.23858 1 6V31.209C1 33.9705 3.23858 36.209 6 36.209H112C114.761 36.209 117 38.4476 117 41.209V77" stroke="#00563B" stroke-width="2"></path>
+  </symbol>
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 2" id="line-art4">
+    <path d="M0.5 1H64.5" stroke="#00563B" stroke-width="2"></path>
+  </symbol>
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2 825" id="line-art3">
+    <path d="M1 0V825" stroke="#00563B" stroke-width="2"></path>
+  </symbol>
+    <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 257 30" id="line-art5">
+    <path d="M0 29H127C129.761 29 132 26.7614 132 24V6C132 3.23858 134.239 1 137 1H257" stroke="#00563B" stroke-width="2"></path>
+  </symbol>
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28" id="down-arrow">
+    <path d="M14 23.3334V4.66675M5.83337 15.1667L14 23.3334L22.1667 15.1667" stroke="#00563B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+   <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 41 49" id="desktop-svg1">
+    <path d="M40 0V33C40 41.2843 33.2843 48 25 48H0" stroke="#00563B"></path>
+  </symbol>
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 685 2" id="desktop-svg2">
+    <path d="M-1 1H685" stroke="#00563B" stroke-width="2"></path>
+  </symbol>
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 54 3" id="line-art7">
+    <path d="M0 1.5H53.5" stroke="#00563B" stroke-width="2"></path>
+  </symbol>
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 99 60" id="line-art8">
+    <path d="M0.5 1.5H83C91.2843 1.5 98 8.21573 98 16.5V59.5" stroke="#00563B" stroke-width="2"></path>
+  </symbol>
+   <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 155 574" id="line-art9">
+    <path d="M155 344H27C21.4772 344 17 339.523 17 334V240C17 234.477 21.4772 230 27 230H155" stroke="#00563B" stroke-width="2"></path>
+    <path d="M155 214H11C5.47716 214 1 218.477 1 224V350C1 355.523 5.47715 360 11 360H155" stroke="#00563B" stroke-width="2"></path>
+    <path d="M22.5 214.5V16.5C22.5 8.21573 29.2157 1.5 37.5 1.5H126.5" stroke="#00563B" stroke-width="2"></path>
+    <path d="M22 360V558C22 566.284 28.7157 573 37 573H126" stroke="#00563B" stroke-width="2"></path>
+  </symbol>
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 356 172" id="line-art10">
+    <path d="M2 82H355.001" stroke="#00563B" stroke-width="2"></path>
+    <path d="M1.5 172V0.5" stroke="#00563B" stroke-width="2"></path>
+  </symbol>
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 313 286" id="line-art11">
+    <path d="M313 1H16C7.71573 1 1 7.71573 1 16V270C1 278.284 7.71573 285 16 285H313" stroke="#00563B" stroke-width="2"></path>
+  </symbol>
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 134" id="line-art12">
+    <path d="M1 0.5V133.5" stroke="#00563B" stroke-width="2"></path>
+    <path d="M23 1V134" stroke="#00563B" stroke-width="2"></path>
+  </symbol>
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 169 18" id="line-art13">
+    <path d="M1 0L1 12C1 14.7614 3.23858 17 6 17L169 17" stroke="#00563B" stroke-width="2"></path>
+  </symbol>
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 155 286" id="line-art14">
+    <path d="M155 1H16C7.71573 1 1 7.71573 1 16V270C1 278.284 7.71573 285 16 285H155" stroke="#00563B" stroke-width="2"></path>
+  </symbol>
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 182 2" id="desktop-svg6">
+    <path d="M0 1H182" stroke="#00563B"></path>
+  </symbol>
+   <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 423 45" id="desktop-svg7">
+    <path d="M0 1H423" stroke="#00563B" stroke-width="2"></path>
+    <path d="M0 44H423" stroke="#00563B" stroke-width="2"></path>
+  </symbol>
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 386 74" id="desktop-svg8">
+    <path d="M0 73H176C184.284 73 191 66.2843 191 58V16C191 7.71573 197.716 1 206 1H386" stroke="#00563B" stroke-width="2"></path>
+  </symbol>
+</svg>
