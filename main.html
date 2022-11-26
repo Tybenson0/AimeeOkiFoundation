@@ -20,12 +20,13 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body>
     <section class="background-main green">
       <div class="hero-page-container">
-        <div class="line-art-container">
-          <svg class="line-art0">
+        <div class="line-art-container" >
+          <svg class="line-art0" >
             <use href="/svgs/sprite (1).svg#line-art10"></use>
           </svg>
           <svg class="line-art1">
@@ -40,38 +41,40 @@
           <svg class="line-art5">
             <use href="/svgs/sprite (1).svg#line-art5"></use>
           </svg>
-          <svg class="desktop-svg1">
-            <use href="/svgs/sprite (1).svg#desktop-svg1"></use>
-          </svg>
-          <svg class="desktop-svg3">
-            <use href="/svgs/sprite (1).svg#desktop-svg1"></use>
-          </svg>
-          <svg class="desktop-svg4">
-            <use href="/svgs/sprite (1).svg#desktop-svg1"></use>
-          </svg>
-          <img class="flower-svg" src="/svgs/flower.svg" alt="">
-          <img class="flower-svg2" src="/svgs/flower.svg" alt="">
-          <svg class="desktop-svg5">
-            <use href="/svgs/sprite (1).svg#desktop-svg1"></use>
+          <div class="animation" data-aos="fade-up" data-aos-duration="500">
+            <svg class="desktop-svg1">
+              <use href="/svgs/sprite (1).svg#desktop-svg1"></use>
+            </svg>
+            <svg class="desktop-svg3">
+              <use href="/svgs/sprite (1).svg#desktop-svg1"></use>
+            </svg>
+            <svg class="desktop-svg4" >
+              <use href="/svgs/sprite (1).svg#desktop-svg1"></use>
+            </svg>
+          </div>
+          <img class="flower-svg" src="/svgs/flower.svg" alt="" data-aos="fade-up-left" data-aos-duration="1200">
+          <img class="flower-svg2" src="/svgs/flower.svg" alt="" data-aos="fade-up-right" data-aos-duration="1200">
+          <svg class="desktop-svg5" >
+            <use href="/svgs/sprite (1).svg#desktop-svg1" data-aos="fade-right" data-aos-duration="500"></use>
           </svg>
         </div>
           <header>
-            <div class="logo-container">
-              <a class="logo-link" href="#page-2">
-                <div class="aimee-Oki">
+            <div class="logo-container" >
+              <a class="logo-link">
+                <div class="aimee-Oki" data-aos="fade-right" data-aos-duration="500">
                   <h1 id="aimee-text" class="aimee-text">Aimee Oki</h1>
                 </div>
-                <div class="foundation">
+                <div class="foundation" data-aos="fade-left" data-aos-duration="500">
                   <h1 id="foundation-text" class="foundation-text">Foundation</h1>
                 </div>
               </a>
             </div>
-            <nav class="navbar">
+            <nav class="navbar" data-aos="fade-left" data-aos-duration="500">
               <ul class="nav-menu">
                 <li class="nav-links">
                   <a href="#" class="nav-link hover-state">Home</a>
                 </li>
-                <li class="nav-links">
+                <li class="nav-links" >
                   <a href="#page-2" class="nav-link hover-state">Aimee's Story</a>
                 </li>
                 <li class="nav-links">
@@ -95,44 +98,45 @@
               </div>
             </nav>
           </header>
-          <div class="hero-container">
+          <div class="hero-container" data-aos="fade-up" data-aos-duration="500">
             <img class="aimee-img1" src="/imgs/Aimee-oki-main.webp" alt="" />
-            <div class="info-title grid-box1"><h2 >What We're About</h2 ></div>
-            <div class="box-content grid-box1">
-              <p class="hero-content hero-content1">
-                  In her loving memory, the Aimee Oki Foundation was established to
-                  actively support those affected by Bipolar Disorder and depression.
-                  We strive to educate young adults about the significance of mental
-                  health and provide professional resources for those in need.
-              </p>
-            </div>
-            <div class="info-title info-title2"><h2 >How you can Help!</h2></div>
-            <div class="box-content box-content2">
-              <p class="hero-content hero-content2">
-                Attend any of our annual fundraising events!
-                <br>
-                  Or follow us on social
-                  media!
-                </br>
-              </p>
-              <div class="icon-container insta">
-                <a href="https://www.instagram.com/aimeeokifoundation/?igshid=YmMyMTA2M2Y%3D" target="_blank"><img class="icon-svg" src="/svgs/icons8-instagram.svg" alt=""></a>
+              <div class="info-title grid-box1"><h2 >What We're About</h2 ></div>
+              <div class="box-content grid-box1">
+                <p class="hero-content hero-content1">
+                    In her loving memory, the Aimee Oki Foundation was established to
+                    actively support those affected by Bipolar Disorder and depression.
+                    We strive to educate young adults about the significance of mental
+                    health and provide professional resources for those in need.
+                </p>
               </div>
-              <div class="icon-container twitter">
-                <a href="https://twitter.com/aimee_oki" target="_blank"><img class="icon-svg" src="/svgs/icons8-twitter.svg" alt=""></a>
+              <div class="info-title info-title2"><h2 >How you can Help!</h2></div>
+              <div class="box-content box-content2">
+                <p class="hero-content hero-content2">
+                  Attend any of our annual fundraising events!
+                  <br>
+                    Or follow us on social
+                    media!
+                  </br>
+                </p>
+                <div class="icon-container insta">
+                  <a href="https://www.instagram.com/aimeeokifoundation/?igshid=YmMyMTA2M2Y%3D" target="_blank"><img class="icon-svg" src="/svgs/icons8-instagram.svg" alt=""></a>
+                </div>
+                <div class="icon-container twitter">
+                  <a href="https://twitter.com/aimee_oki" target="_blank"><img class="icon-svg" src="/svgs/icons8-twitter.svg" alt=""></a>
+                </div>
+                <div class="icon-container facebook">
+                  <a href="https://www.facebook.com/aimeeokifoundation" target="_blank"><img class="icon-svg" src="/svgs/icons8-facebook.svg" alt=""></a>
+                </div>
               </div>
-              <div class="icon-container facebook">
-                <a href="https://www.facebook.com/aimeeokifoundation" target="_blank"><img class="icon-svg" src="/svgs/icons8-facebook.svg" alt=""></a>
+              <div class="info-title info-title3 grid-box1"><h2 class="header2-">Bipolar Disorder</h2 class="header2-"></div>
+              <div class="box-content box-content3 grid-box1">
+                <p class="hero-content hero-content3">
+                  Formerly known as manic depression, Bipolar disorder includes extreme mood swings from emotional highs to hopeless lows. This long-term illness can be treated with medication and therapy.
+                </p>
               </div>
+              
+                    </div>
             </div>
-            <div class="info-title info-title3 grid-box1"><h2 class="header2-">Bipolar Disorder</h2 class="header2-"></div>
-            <div class="box-content box-content3 grid-box1">
-              <p class="hero-content hero-content3">
-                Formerly known as manic depression, Bipolar disorder includes extreme mood swings from emotional highs to hopeless lows. This long-term illness can be treated with medication and therapy.
-              </p>
-            </div>
-          </div>
-      </div>
         <div class="next-page" id="scroll-to-bottom" ><h2 id="aimees-story">Aimee's Story</h2>
           <svg class="down-arrow">
             <use href="/svgs/sprite (1).svg#down-arrow"></use>
@@ -142,13 +146,15 @@
     </section>
     <section class="background white page-2" id="page-2">
       <div class="page-base" >
-        <div class="aimee-story-container" id="page-bottom">
-          <div class="svg-art-container2">
-            <a href="#">
-              <svg class="line-art6">
-                <use href="/svgs/sprite (1).svg#line-art3"></use>
-              </svg>
-            </a>
+        <div class="aimee-story-container" id="page-bottom" >
+          <div class="svg-art-container2" >
+            <div class="animation" data-aos="fade-left" data-aos-duration="500">
+              <a href="#">
+                <svg class="line-art6">
+                  <use href="/svgs/sprite (1).svg#line-art3" ></use>
+                </svg>
+              </a>
+            </div>
             <svg class="line-art7">
               <use href="/svgs/sprite (1).svg#line-art7"></use>
             </svg>
@@ -170,24 +176,26 @@
             <svg class="desktop-svg8">
               <use href="/svgs/sprite (1).svg#desktop-svg1"></use>
             </svg>
-            <svg class="desktop-svg9">
-              <use href="/svgs/sprite (1).svg#desktop-svg6"></use>
-            </svg>
+            <div class="animation" data-aos="fade-right" data-aos-duration="1000">
+              <svg class="desktop-svg9" >
+                <use href="/svgs/sprite (1).svg#line-art7"></use>
+              </svg>
+            </div>
           </div>
-          <div class="pg2-img-container">
-            <div class="line line1"></div>
-            <div class="line line2"></div>
-            <div class="line line3"></div>
+          <div class="pg2-img-container" data-aos="fade-left" data-aos-duration="300">
+            <div class="line line1" data-aos="fade-up-left" data-aos-duration="700"></div>
+            <div class="line line2" data-aos="fade-up-left" data-aos-duration="700"></div>
+            <div class="line line3" data-aos="fade-up-left" data-aos-duration="700"></div>
             <img class="aimee-with-friend" src="/imgs/Aimee+friend.jpg" alt="">
-            <img src="/imgs/aimee-with-friend2.jpg" alt="" class="aimee-with-friend2">
-            <img class="flower-svg3" src="/svgs/flower.svg" alt="">
-            <img class="flower-svg4" src="/svgs/flower.svg" alt="">
-            <div class="line line4"></div>
-            <div class="line line5"></div>
-            <div class="line line6"></div>
+            <img src="/imgs/aimee-with-friend2.jpg" alt="" class="aimee-with-friend2" >
+            <img class="flower-svg3" src="/svgs/flower.svg" alt="" data-aos="fade-up-right" data-aos-duration="1200">
+            <img class="flower-svg4" src="/svgs/flower.svg" alt="" data-aos="fade-down-left" data-aos-duration="1200">
+            <div class="line-second line4" data-aos="fade-up-right" data-aos-duration="700"></div>
+            <div class="line-second line5" data-aos="fade-up-right" data-aos-duration="700"></div>
+            <div class="line-second line6" data-aos="fade-up-right" data-aos-duration="700"></div>
           </div>
-          <div class="her-story"><h2 class="pg2-titletag">Aimee's Story</h2 ></div>
-          <div class="box-content pg2-box-content">
+          <div class="her-story" data-aos="fade-up" data-aos-duration="500"><h2 class="pg2-titletag">Aimee's Story</h2 ></div>
+          <div class="box-content pg2-box-content" data-aos="fade-right" data-aos-duration="500">
             <div class="text-container">
               <p class="hero-content pg2-content">
           
@@ -209,10 +217,10 @@
         </div>
        </section >
             <section class="background background-longer green page-3" id="page-3">
-        <div class="page-base">
-          <div class="svg-art-container" >
+        <div class="page-base page-cover">
+          <div class="svg-art-container" data-aos="fade-left" data-aos-duration="600">
             <a href="#">
-              <svg class="line-art6 page3-return">
+              <svg class="line-art6 page3-return" >
                 <use href="/svgs/sprite (1).svg#line-art3"></use>
               </svg>
             </a>
@@ -222,23 +230,25 @@
             <svg class="line-art13">
               <use href="/svgs/sprite (1).svg#line-art10"></use>
             </svg>
-            <svg class="desktop-svg10">
-              <use href="/svgs/sprite (1).svg#line-art9"></use>
-            </svg>
-            <svg class="desktop-svg11">
-              <use href="/svgs/sprite (1).svg#line-art9"></use>
-            </svg>
+            <div class="animation" data-aos="zoom-in-up" data-aos-duration="800">
+              <svg class="desktop-svg10">
+                <use href="/svgs/sprite (1).svg#line-art9"></use>
+              </svg>
+              <svg class="desktop-svg11">
+                <use href="/svgs/sprite (1).svg#line-art9"></use>
+              </svg>
+            </div>
             <svg class="desktop-svg12">
               <use href="/svgs/sprite (1).svg#desktop-svg6"></use>
             </svg>
           </div>
-            <div class="next-page2 next-page" id="second-to-bottom"><h2 class="header-2" id="aimees-story">Community & Events</h2 >
-              <svg class="down-arrow">
-                <use href="/svgs/sprite (1).svg#down-arrow"></use>
-              </svg>
-            </div>
-          <div class="community-events-container page-cover" id="second-page-bottom">
-            <div class="swiper mySwiper">
+          <div class="next-page2 next-page" id="second-to-bottom"><h2 class="header-2" id="aimees-story">Community & Events</h2 >
+            <svg class="down-arrow">
+              <use href="/svgs/sprite (1).svg#down-arrow"></use>
+            </svg>
+          </div>
+          <div class="community-events-container " id="second-page-bottom">
+            <div class="swiper mySwiper" data-aos="flip-left" data-aos-duration="500">
               <div class="swiper-wrapper">
                 <div class="swiper-slide mobile">
                   <div class="community-img1-container">
@@ -282,7 +292,7 @@
                 </div>
               </div>
             </div>
-            <div class="swiper mySwiper2">
+            <div class="swiper mySwiper2" data-aos="flip-up" data-aos-duration="500">
               <div class="swiper-wrapper">
                 <div class="swiper-slide mobile">
                   <div class="community-img1-container">
@@ -331,7 +341,7 @@
               </div>
             </div>
                 </div>
-            <div class="swiper mySwiper3">
+            <div class="swiper mySwiper3" data-aos="flip-right" data-aos-duration="500">
               <div class="swiper-wrapper">
                 <div class="swiper-slide desktop-swiper">
                   <div class="community-img1-container">
@@ -375,11 +385,13 @@
           </div>
         <div class="donate-container" id="third-page-bottom">
           <div class="svg-art-container2">
-            <a href="#">
-              <svg class="line-art6 page4-return">
-                <use href="/svgs/sprite (1).svg#line-art3"></use>
-              </svg>
-            </a>
+            <div class="animation" data-aos="fade-left" data-aos-duration="500">
+              <a href="#">
+                <svg class="line-art6 page4-return">
+                  <use href="/svgs/sprite (1).svg#line-art3"></use>
+                </svg>
+              </a>
+            </div>
             <svg class="line-art14">
               <use href="/svgs/sprite (1).svg#line-art11"></use>
             </svg>
@@ -392,27 +404,36 @@
             <svg class="line-art17">
               <use href="/svgs/sprite (1).svg#line-art13"></use>
             </svg>
-            <svg class="desktop-svg13">
-              <use href="/svgs/sprite (1).svg#desktop-svg7"></use>
-            </svg>
-            <svg class="desktop-svg14">
-              <use href="/svgs/sprite (1).svg#desktop-svg7"></use>
-            </svg>
-            <svg class="desktop-svg15">
-              <use href="/svgs/sprite (1).svg#desktop-svg6"></use>
-            </svg>
-            <svg class="desktop-svg16">
-              <use href="/svgs/sprite (1).svg#desktop-svg6"></use>
-            </svg>
-            <svg class="desktop-svg17">
-              <use href="/svgs/sprite (1).svg#desktop-svg6"></use>
-            </svg>
+            <div class="animation" data-aos="fade-right" data-aos-offset="100" data-aos-duration="2000">
+              <svg class="desktop-svg13" >
+                <use href="/svgs/sprite (1).svg#desktop-svg7"></use>
+              </svg>
+            </div>
+            <div class="animation" data-aos="fade-left" data-aos-offset="100" data-aos-duration="2000">
+              <svg class="desktop-svg14">
+                <use href="/svgs/sprite (1).svg#desktop-svg7"></use>
+              </svg>
+            </div>
+            <div class="animation" data-aos="fade-down" data-aos-offset="100" data-aos-duration="2000">
+              <svg class="desktop-svg15">
+                <use href="/svgs/sprite (1).svg#line-art7"></use>
+              </svg>
+            </div>
+            <div class="animation" data-aos="fade-up" data-aos-offset="100" data-aos-duration="2000">
+              <svg class="desktop-svg16">
+                <use href="/svgs/sprite (1).svg#line-art7"></use>
+              </svg>
+            </div>
+            <div class="animation" data-aos="fade-right" data-aos-duration="700">
+              <svg class="desktop-svg17">
+                <use href="/svgs/sprite (1).svg#desktop-svg6"></use>
+              </svg>
+            </div>
           </div>
           <div class="svg-container">
-            
-            <img src="/svgs/illustration1.svg" alt="" class="donate-svg">
-            <img src="/svgs/illustration2.svg" alt="" class="donate-svg2">
-            <img src="/svgs/illustration3.svg" alt="" class="donate-svg3">
+            <img src="/svgs/illustration1.svg" alt="" class="donate-svg" data-aos="fade-up-left" data-aos-duration="500">
+            <img src="/svgs/illustration2.svg" alt="" class="donate-svg2" data-aos="fade-up-left" data-aos-duration="300">
+            <img src="/svgs/illustration3.svg" alt="" class="donate-svg3" data-aos="fade-up-left" data-aos-duration="200">
           </div>
           <div class="textbox-container">
             <div class="textbox">
@@ -442,29 +463,43 @@
     <section class="background  green page-5" id="page-5">
       <div class="page-base">
         <div class="svg-art-container">
-          <a href="#">
-            <svg class="line-art6 page5-return">
-              <use href="/svgs/sprite (1).svg#line-art3"></use>
+          <div class="animation" data-aos="fade-left" data-aos-offset="100" data-aos-duration="1000">
+            <a href="#">
+              <svg class="line-art6 page5-return" >
+                <use href="/svgs/sprite (1).svg#line-art3"></use>
+              </svg>
+            </a>
+          </div>
+          <div class="animation" data-aos="fade-down-left" data-aos-offset="100" data-aos-duration="1000">
+            <svg class="desktop-svg18" >
+              <use href="/svgs/sprite (1).svg#desktop-svg8"></use>
             </svg>
-          </a>
-          <svg class="desktop-svg18">
-            <use href="/svgs/sprite (1).svg#desktop-svg8"></use>
-          </svg>
-          <svg class="desktop-svg19">
-            <use href="/svgs/sprite (1).svg#desktop-svg8"></use>
-          </svg>
-          <svg class="desktop-svg20">
-            <use href="/svgs/sprite (1).svg#desktop-svg8"></use>
-          </svg>
-          <svg class="desktop-svg21">
-            <use href="/svgs/sprite (1).svg#desktop-svg8"></use>
-          </svg>
-          <svg class="desktop-svg22">
-            <use href="/svgs/sprite (1).svg#desktop-svg6"></use>
-          </svg>
-          <svg class="desktop-svg23">
-            <use href="/svgs/sprite (1).svg#desktop-svg6"></use>
-          </svg>
+          </div>
+          <div class="animation" data-aos="fade-down-right" data-aos-offset="100" data-aos-duration="1000">
+            <svg class="desktop-svg19">
+              <use href="/svgs/sprite (1).svg#desktop-svg8"></use>
+            </svg>
+          </div>
+          <div class="animation" data-aos="fade-left" data-aos-offset="100" data-aos-duration="1000">
+            <svg class="desktop-svg20" >
+              <use href="/svgs/sprite (1).svg#desktop-svg8"></use>
+            </svg>
+          </div>
+          <div class="animation" data-aos="fade-right" data-aos-offset="100" data-aos-duration="1000">
+            <svg class="desktop-svg21">
+              <use href="/svgs/sprite (1).svg#desktop-svg8"></use>
+            </svg>
+          </div>
+          <div class="animation" data-aos="fade-down" data-aos-offset="100" data-aos-duration="1000">
+            <svg class="desktop-svg22">
+              <use href="/svgs/sprite (1).svg#desktop-svg6"></use>
+            </svg>
+          </div>
+          <div class="animation" data-aos="fade-right" data-aos-offset="100" data-aos-duration="1000">
+            <svg class="desktop-svg23">
+              <use href="/svgs/sprite (1).svg#desktop-svg6"></use>
+            </svg>
+          </div>
         </div>
           <div class=" next-page next-page5" id="fourth-to-bottom" ><h2 class="header-2" id="aimees-story">Resources</h2>
             <svg class="down-arrow">
@@ -532,7 +567,7 @@
                     <span class="margin-span"></span>
                     For help:
                     <span class="margin-span"></span>
-                    <a href="https://didihirsch.org/" target="_blank">Didi Hirsch Organization</a>
+                    <a href="https://didihirsch.org/" target=aimees-st"_blank">Didi Hirsch Organization</a>
                     <span class="margin-span"></span>
                     <a href="https://www.dbsalliance.org/" target="_blank">Depression and Bipolar disorder Support Alliance</a>
                   </p>
@@ -554,11 +589,11 @@
         </div>
       </a>
       <div class="contact-container">
-        <div class="social-media-container">
+        <div class="social-media-container"data-aos="fade-down" data-aos-duration="500">
           <div class="title-container">
             <h2 class="header-2" class="contact-titles">Follow us on Social Media</h2 class="header-2">
           </div>
-          <div class="social-links-container">
+          <div class="social-links-container" >
               <div class="social-unit">
                 <a href="https://www.instagram.com/aimeeokifoundation/?igshid=YmMyMTA2M2Y%3D" target="_blank">
                   <div class="contact-icon-container">
@@ -591,11 +626,11 @@
               </div>
           </div>
         </div>
-        <div class="email-section">
+        <div class="email-section" data-aos="fade-up" data-aos-duration="500">
           <div class="title-container">
             <h3 class="contact-titles">Email us for more Information!</h3>
           </div>
-          <div class="email-container">
+          <div class="email-container" >
             <h4 class="">info@aimeeokifoundation.com</h4>
             <form action="https://formsubmit.co/info@aimeeokifoundation.com" method="POST" class="form-container">
               <input type="text" name="name" placeholder="Name.." class="small-input" required>
@@ -610,5 +645,9 @@
       
     </section>
     <script src="/js/main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
   </body>
 </html>
