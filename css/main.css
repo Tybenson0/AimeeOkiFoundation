@@ -48,7 +48,7 @@ width: 100vw;
 height: 105vh;
 overflow-x: hidden;
 overflow-y: hidden;
-clip-path: polygon(52% 0, 100% 0, 100% 100%, 0% 100%, 0 3%, 52% 3%);
+clip-path: polygon(42% 0, 100% 0, 100% 100%, 0% 100%, 0 3%, 42% 3%);
 margin-top: -8rem;
 }
 .background-longer {
@@ -419,11 +419,11 @@ justify-content: center;
 align-items: center;
 top: -9.25%;
 float: right;
-right: -2.5%;
+right: 1%;
 width: 20rem;
 height: 5rem;
 white-space: nowrap;
-gap: 1rem;
+gap: 4rem;
 }
 .down-arrow {
   position: relative;
@@ -839,7 +839,9 @@ line-height: 2.25rem;
 }
 .next-page4 {
   top: -1rem;
-  right: -.5rem;
+  right: -.75rem;
+  width: 25rem;
+  gap: 1rem;
 }
 
 .line-art18 {
@@ -917,9 +919,9 @@ width: 13rem;
 height: 13rem;
 }
 .next-page5 {
-  gap: 2.5rem;
+  gap: 5rem;
   top: -.5%;
-  right: .7rem;
+  right: -.5rem;
 }
 .overflow {
 overflow: hidden;
@@ -928,7 +930,7 @@ overflow: hidden;
 .next-page6 {
   top: -.5rem;
   left: 0;
-  gap: 3rem;
+  gap: 5rem;
 }
 .contact-container {
 display: flex;
@@ -1681,6 +1683,7 @@ border-radius: 15px;
 }
 .page5-return {
   top: 5rem;
+  right: -10rem;
 }
 .next-page2 {
   position: relative;
@@ -1852,8 +1855,8 @@ border-radius: 15px;
 }
 .next-page4 {
   top: -1rem;
-  left: 1.5rem;
-  gap: 3rem;
+  left: .75rem;
+  gap: 0rem;
 }
 .desktop-svg13 {
   position: absolute;
@@ -1929,8 +1932,8 @@ border-radius: 15px;
   left: 4%;
 }
 .next-page5 {
-  top: -.5rem;
-  right: -2.5rem;
+  top: -1rem;
+  right: -2.75rem;
   gap: 5rem;
 }
 .desktop-svg18 {
@@ -2045,11 +2048,13 @@ border-radius: 15px;
   height: 83%;
 }
 .flower-svg-contact {
+  display: block;
   position: absolute;
   width:40rem;
   left: -4%;
 }
 .flower-svg-contact2 {
+  display: block;
   position: absolute;
   width: 35rem;
   top: -1%;
@@ -2089,25 +2094,35 @@ border-radius: 15px;
     margin-top: -5rem;
      clip-path: polygon(80% 0, 100% 0, 100% 100%, 0% 100%, 0 5%, 80% 5%);
   }
+  .green {
+    background-image: url('/svgs/bubbles_desktop_bigger.svg');
+  }
+  .white {
+    background-image: url('/svgs/bubbles_white-desktop-bigger.svg');
+  }
   #aimees-story {
     font-size: 2rem;
   }
   .next-page {
-    gap: 1rem;
-    right: -1rem;
+    gap: 3rem;
+    right: -1.75rem;
     top: -5.5rem;
   }
   .next-page2 {
-    gap: 1rem;
+    gap: 5.5rem;
     right: -1rem;
     top: -.75rem;
   }
   .next-page4 {
-    top: 2rem;
+    top: -1rem;
+    left: .75rem;
+    gap: 0;
     justify-self: right;
   }
   .next-page5 {
     top: -.5rem;
+    right: -2.25rem;
+    gap: 6rem;
   }
   .next-page6 {
     top: -.5rem;
@@ -2115,15 +2130,17 @@ border-radius: 15px;
   .aimee-img1 {
     top: -10%;
     height: 55rem;
-    right: 9%;
+    right: 8%;
     width: 50rem;
   }
   .desktop-svg5 {
-    width: 12rem;
+    width: 11rem;
     top: 78%;
+    right: 5rem;
   }
   .desktop-svg1 {
-    top: 25%;
+    position: relative;
+    top: 23rem;
     left: 33.5%;
   }
   .desktop-svg3 {
@@ -2133,13 +2150,14 @@ border-radius: 15px;
     top: 58rem;
   }
   .flower-svg {
-    right: 28%;
+    right: 27%;
+   top: 30% ;
     width: 40rem;
   }
   .flower-svg2 {
     width: 40rem;
-    right: 0;
-    top: 14%;
+    right: 1%;
+    top: 11%;
   }
   .box-content {
     top: -2%;
@@ -2186,7 +2204,7 @@ border-radius: 15px;
     left: 60%;
   }
   .desktop-svg6 {
-    top: 45%;
+    margin-top: 2%;
     left: 45.5%;
     width: 40rem;
   }
@@ -2196,11 +2214,11 @@ border-radius: 15px;
   }
   .desktop-svg8 {
     right: 22%;
-    top: 11%;
+    margin-top: 0%;
     width: 10rem;
   }
   .desktop-svg9 {
-    width: 35rem;
+    width: 7rem;
   }
   .flower-svg3 {
     width: 33rem;
@@ -2219,54 +2237,59 @@ border-radius: 15px;
     height: 95%;
   }
   .page4-return {
-   right: -10rem;
+   right: -12rem;
   }
   .swiper {
     width:35rem;
     height: 50rem;
   }
   .desktop-svg11 {
-    left: 32%;
-    top: -18%;
-    width: 60rem;
+    left: 26%;
+    margin-top: 2%;
+    width: 80rem;
   }
   .desktop-svg10 {
-    left: 30%;
-    width: 70rem;
-    top: 36%;
+    left: 26%;
+    width: 80rem;
+    margin-top: 10%;
   }
   .textbox {
     opacity: .95;
-    left: -11%;
+    left: 11%;
+    top: 6%;
   }
   .textbox2 {
     top: 70%;
-    left: 7%;
+    left: 2%;
+  }
+  .donate-text {
+    font-size: 2.0rem;
+    line-height: 3.25rem;
   }
   .desktop-svg13 {
-    top: 14%;
+    margin-top: 1%;
     right: 36%;
-    width: 50rem;
+    width: 60rem;
   }
   .desktop-svg14 {
     z-index: 1000;
-    top: 78%;
+    margin-top: 6.5%;
     left: 32%;
-    width: 50rem;
+    width: 60rem;
   }
   .desktop-svg15 {
-    top: 64%;
-    right: 22%;
-    width: 45rem;
+    margin-top: 5%;
+    right: 31%;
+    width: 10rem;
   }
   .desktop-svg16 {
-    top: 26%;
-    left: 18%;
-    width: 45rem;
+    margin-top: 3.5%;
+    left: 25%;
+    width: 10rem;
   }
   .desktop-svg17 {
-    top: 60%;
-    right: 5rem;
+    margin-top: 3%;
+    right: 3rem;
     width: 45rem;
   }
   .resources-imgs {
@@ -2276,28 +2299,53 @@ border-radius: 15px;
     width: 70%;
   }
   .desktop-svg18 {
-    top: 30%;
-    left: 25%;
+    margin-top: 6%;
+    left: 22%;
+    width: 40rem;
   }
   .desktop-svg19 {
-    top: 30%;
-    right: 25%;
+    margin-top: 6%;
+    right: 22%;
+    width: 40rem;
   }
   .desktop-svg20 {
-    top: 62%;
-    left: 25%;
-    width: 30rem;
+    margin-top: 11%;
+    left: 23%;
+    width: 35rem;
   }
   .desktop-svg21 {
-    top: 62%;
-    right: 25%;
-    width: 30rem;
+    margin-top: 11%;
+    right: 24%;
+    width: 35rem;
   }
   .desktop-svg22 {
-    top: 40%;
+    margin-top: 10%;
     right: 42%;
   }
   .second-card {
     top: -10%;
+  }
+  .contact-container {
+    width: 99%;
+    height: 95%;
+    top: -5%;
+  }
+  .social-media-container {
+    height: 40%;
+    width: 50%;
+  }
+  .email-container {
+    width: 70%;
+    margin-right: 10%;
+  }
+  .flower-svg-contact2 {
+    right: 4%;
+    top:8%;
+    width: 45rem;
+  }
+  .flower-svg-contact {
+    left: -5%;
+    top:10%;
+    width: 40rem;
   }
 }
