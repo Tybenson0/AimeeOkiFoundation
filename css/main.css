@@ -1047,6 +1047,9 @@ width: 30%;
 border-radius: 15px;
 }
 @media only screen and (max-width: 380px) {
+  .background-main {
+    height: 100vh;
+  }
 .hero-container {
   top: 3rem;
 }
@@ -1057,10 +1060,16 @@ border-radius: 15px;
   width: 100%;
 }
 .info-title2, .box-content2 {
-  top: -25%;
+  top: -25.5%;
+}
+.box-content2 {
+  height: 10.5rem;
+}
+.info-title2 {
+  height: 3rem;
 }
 .line-art5 {
-  top: 59rem;
+  top: 57.5rem;
 }
 .pg2-box-content {
   height: 28rem;
