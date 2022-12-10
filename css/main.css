@@ -140,7 +140,7 @@ display: block;
   position: absolute;
   float: right;
   right: 5%;
-  top: 63rem;
+  top: 61rem;
   width: 225px;
   height: 40px;
 }
@@ -390,11 +390,11 @@ line-height: 2;
 }
 
 .info-title2 {
-  top: -20%;
+  top: -22%;
   height: 4rem;
 }
 .box-content2 {
-  top: -20%;
+  top: -22%;
   height: 11rem;
 }
 .icon-container {
