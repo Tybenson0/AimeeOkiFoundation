@@ -140,7 +140,7 @@ display: block;
   position: absolute;
   float: right;
   right: 5%;
-  top: 61rem;
+  top: 60rem;
   width: 225px;
   height: 40px;
 }
@@ -390,11 +390,11 @@ line-height: 2;
 }
 
 .info-title2 {
-  top: -22%;
+  top: -20rem;
   height: 4rem;
 }
 .box-content2 {
-  top: -22%;
+  top: -20rem;
   height: 11rem;
 }
 .icon-container {
@@ -513,7 +513,7 @@ height: 28%;
 z-index: 4;
 position: relative;
 top: -3%;
-left: 13rem;
+left: 12rem;
 padding: 10px 10px 10px 10px;
 background: #00563B;
 opacity: 95%;
@@ -601,14 +601,15 @@ padding: 10px;
 display: block;
 top: 1rem;
 margin: 1rem;
-width: 83%;
+width: 80%;
 height: 30rem;
 border-radius: 15px;
-overflow:hidden;
+overflow: auto;
 opacity: 100%;
 
 }
 .text-container {
+  z-index: 999;
 height: 98%;
 width: 97%;
 overflow: auto;
@@ -619,6 +620,7 @@ margin-top: 1rem;
 left: 1;
 letter-spacing: 1px;
 height: 90%;
+overflow: auto;
 }
 .next-page2 {
   z-index: 999;
@@ -1510,21 +1512,7 @@ svg {
   top: -6%;
   gap: 1rem;
 }
-.resources-content {
-}
-.second-card {
-  
-}
-.resources-card-container {
 
-  
-}
-.resources-header {
-
-}
-.resources-text-container {
-
-}
 .resources-imgs {
  width: 28%;
  height: 85%;
