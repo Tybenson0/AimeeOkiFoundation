@@ -140,12 +140,11 @@ display: block;
   position: absolute;
   float: right;
   right: 5%;
-  top: 60rem;
+  top: 71.5vh;
   width: 225px;
   height: 40px;
 }
 .line-art6 {
-  z-index: 1;
   position: absolute;
   top: 5%;
   right: -13rem;
@@ -390,11 +389,11 @@ line-height: 2;
 }
 
 .info-title2 {
-  top: -20rem;
+  top: -21rem;
   height: 4rem;
 }
 .box-content2 {
-  top: -20rem;
+  top: -21rem;
   height: 11rem;
 }
 .icon-container {
@@ -448,6 +447,7 @@ letter-spacing: 0;
 }
 
 /* page 2 */
+
 .page-cover {
   position: relative;
   height: 90%;
@@ -564,6 +564,14 @@ border-radius: 15px;
   position: absolute;
   opacity: 100%;
 }
+.svg-art-container3 {
+  z-index: 1;
+  width: 1%;
+  height: 100%;
+  position: absolute;
+  opacity: 100%;
+  right: 0;
+}
 .svg-art-container {
   z-index: 1;
   width: 100%;
@@ -581,7 +589,7 @@ border-radius: 15px;
   width: 5rem;
   rotate: 90deg;
   top: 31rem;
-  left: 16rem;
+  left: -58vw;
 }
 .line-art9 {
   position: absolute;
@@ -593,7 +601,7 @@ border-radius: 15px;
   position: absolute;
   width: 8.5rem;
   top: 34.5rem;
-  left: 6.5rem;
+  left: -85vw;
   transform: scaleX(-1);
 }
 .pg2-box-content {
@@ -604,15 +612,15 @@ margin: 1rem;
 width: 80%;
 height: 30rem;
 border-radius: 15px;
-overflow: auto;
+overflow:hidden;
 opacity: 100%;
 
 }
 .text-container {
-  z-index: 999;
 height: 98%;
-width: 97%;
+width: 101%;
 overflow: auto;
+z-index: 999;
 }
 .pg2-content {
 font-size: 1.6rem;
@@ -620,7 +628,7 @@ margin-top: 1rem;
 left: 1;
 letter-spacing: 1px;
 height: 90%;
-overflow: auto;
+text-indent: 3rem;
 }
 .next-page2 {
   z-index: 999;
@@ -644,14 +652,14 @@ overflow: auto;
 .line-art12 {
   position: absolute;
   left: -6rem;
-  top: 17%;
+  top: 13%;
   height: 60rem;
 }
 .line-art13 {
   position: absolute;
   width: 28rem;
   right: 2rem;
-  top: 44.5%;
+  top: 41vh;
 }
 .mySwiper3 {
   display: none;
@@ -671,7 +679,7 @@ box-sizing: border-box;
   left: -1rem;
 top: -3%;
 width: 27rem;
-height: 35rem;
+height: 42vh;
 }
 
 .swiper-slide {
@@ -874,7 +882,7 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 position: relative;
-top: -2%;
+top: -8vh;
 height: 100%;
 width: 100%;
 }
@@ -1052,7 +1060,23 @@ border-radius: 15px;
 @media only screen and (min-width: 400px) {
   .background {
     
-  clip-path: polygon(54% 0, 100% 0, 100% 100%, 0% 100%, 0 3%, 54% 3%);
+  clip-path: polygon(47% 0, 100% 0, 100% 100%, 0% 100%, 0 3%, 47% 3%);
+  }
+  .next-page {
+    left: .25rem;
+  }
+  .next-page2 {
+    left: 1rem;
+    top: -1rem;
+  }
+  .next-page4 {
+    left: 1.75rem;
+  }
+  .next-page5 {
+    left: .75rem;
+  }
+  .next-page6 {
+    left: .5rem;
   }
 .line-art1 {
   right: 13%;
@@ -1074,9 +1098,11 @@ left: -2%;
   width: 100%;
 }
 .info-title {
+  top: -24vh;
   width: 55%;
 }
 .box-content {
+  top: -24vh;
   width: 90%;
 }
 .hero-content {
@@ -1094,8 +1120,38 @@ left: -2%;
 .line-art5 {
   top: 63rem;
 }
+.line-art8 {
+  position: absolute;
+  left: -61vw;
+  top: 30rem;
+}
+.line-art9 {
+  right: 29vw;
+  top: 39vh;
+}
+.line-art10 {
+  top: 39vh;
+  left: -82vw;
+}
+.line-art12 {
+  top: 12vh;
+}
+.line-art13 {
+  top: 36vh;
+}
+.line-art16 {
+  top: 31vh;
+}
+.line-art17 {
+  top: 78.5vh;
+}
+.line-art19 {
+  margin-top: 3.5vh;
+}
 .pg2-box-content {
-  height: 28rem;
+  height: 38vh;
+  width: 85%;
+  top: 0;
 }
 .swiper {
   height: 33rem;
@@ -1111,6 +1167,7 @@ left: -2%;
 }
 .resources-container {
   height: 100%;
+  top: -10vh;
 }
 .resources-card-container {
   height: 20rem;
@@ -1121,7 +1178,7 @@ left: -2%;
 .resources-imgs {
   height: 11rem;
   width: 11rem;
-  margin-left: 1rem;
+  margin-left: 4rem;
   margin-top: 1.5rem;
 }
 }
@@ -1283,10 +1340,12 @@ svg {
   margin-top: 1.5rem;
 }
 .main-link-container  {
+  position: relative;
   display: flex;
-  justify-content: center;
+  justify-content: left;
   width: 100%;
   gap: 10%;
+  left: 2rem;
 }
 .icon-container {
   width: 4rem;
@@ -1558,6 +1617,10 @@ left: 4rem;
 .background-longer {
   
   clip-path: polygon(76% 0, 100% 0, 100% 100%, 0% 100%, 0 5%, 76% 5%);
+}
+.svg-art-container3 {
+ width: 100%;
+ height: 62%;
 }
 .line-art3 {
   right: -9.75rem;
@@ -1902,7 +1965,7 @@ left: 4rem;
   display: inline;
   position: absolute;
   width: 43%;
-  height: 90%;
+  height: 84%;
   left: 2rem;
   top: 2rem;
 }
@@ -2353,12 +2416,13 @@ left: 4rem;
     width: 40rem;
   }
   .desktop-svg7 {
+  top: -20vh;
   right: 33.75%;
   width: 40rem;
   }
   .desktop-svg8 {
     right: 22%;
-    margin-top: 0%;
+    margin-top: -5vh;
     width: 10rem;
   }
   .desktop-svg9 {
@@ -2389,13 +2453,13 @@ left: 4rem;
   }
   .desktop-svg11 {
     left: 29%;
-    margin-top: 2%;
+    margin-top: 6vh;
     width: 80rem;
   }
   .desktop-svg10 {
     left: 29%;
     width: 80rem;
-    margin-top: 9%;
+    margin-top: 8vh;
   }
   .textbox {
     opacity: .95;
@@ -2411,23 +2475,23 @@ left: 4rem;
     line-height: 3.25rem;
   }
   .desktop-svg13 {
-    margin-top: 2%;
+    margin-top: 4vh;
     right: 34.8%;
     width: 60rem;
   }
   .desktop-svg14 {
     z-index: 1000;
-    margin-top: 9%;
+    margin-top: 1vh;
     left: 32.8%;
     width: 60rem;
   }
   .desktop-svg15 {
-    margin-top: 6.25%;
+    margin-top: 1.5vh;
     right: 32.5%;
     width: 10rem;
   }
   .desktop-svg16 {
-    margin-top: 6.5%;
+    margin-top: 3.5vh;
     left: 28%;
     width: 10rem;
   }
@@ -2456,12 +2520,12 @@ left: 4rem;
     width: 40rem;
   }
   .desktop-svg20 {
-    margin-top: 6.5%;
+    margin-top: 0vh;
     left: 23%;
     width: 35rem;
   }
   .desktop-svg21 {
-    margin-top: 6.5%;
+    margin-top: 0vh;
     right: 24%;
     width: 35rem;
   }
