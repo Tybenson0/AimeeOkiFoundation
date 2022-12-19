@@ -1098,11 +1098,11 @@ left: -2%;
   width: 100%;
 }
 .info-title {
-  top: -24vh;
+  top: -22%;
   width: 55%;
 }
 .box-content {
-  top: -24vh;
+  top: -22%;
   width: 90%;
 }
 .hero-content {
@@ -1112,43 +1112,44 @@ left: -2%;
   top: -20%;
 }
 .box-content2 {
-  height: 12rem;
+  height: 11rem;
 }
 .info-title2 {
   height: 3rem;
 }
 .line-art5 {
-  top: 63rem;
+  top: 67%;
 }
 .line-art8 {
   position: absolute;
   left: -61vw;
-  top: 30rem;
+  top: 32%
 }
 .line-art9 {
   right: 29vw;
-  top: 39vh;
+  top: 37%;
 }
 .line-art10 {
-  top: 39vh;
+  top: 37%;
   left: -82vw;
 }
 .line-art12 {
   top: 12vh;
 }
 .line-art13 {
-  top: 36vh;
+  top: 34.5%;
 }
 .line-art16 {
   top: 31vh;
 }
 .line-art17 {
-  top: 78.5vh;
+  top: 87%;
 }
 .line-art19 {
   margin-top: 3.5vh;
 }
 .pg2-box-content {
+  z-index: 2;
   height: 38vh;
   width: 85%;
   top: 0;
