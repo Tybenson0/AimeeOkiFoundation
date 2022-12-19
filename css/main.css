@@ -136,14 +136,7 @@ display: block;
   right: -13rem;
   height: 85%;
 }
-.line-art5 {
-  position: absolute;
-  float: right;
-  right: 5%;
-  top: 71.5vh;
-  width: 225px;
-  height: 40px;
-}
+
 .line-art6 {
   position: absolute;
   top: 5%;
@@ -589,21 +582,22 @@ border-radius: 15px;
   width: 5rem;
   rotate: 90deg;
   top: 31rem;
-  left: -58vw;
+  left: 16rem;
 }
-.line-art9 {
-  position: absolute;
-  width: 9rem;
-  top: 34.5rem;
-  right: 8rem;
+.flower-svg3 {
+  display: block;
+  position: relative;
+  width: 14rem;
+  top: 32vh;
+  left: 26vh;
 }
-.line-art10 {
-  position: absolute;
-  width: 8.5rem;
-  top: 34.5rem;
-  left: -85vw;
-  transform: scaleX(-1);
+.flower-svg4 {
+  position: relative;
+  width: 18rem;
+  top: 48vh;
+  left: 0vh;
 }
+
 .pg2-box-content {
 padding: 10px;
 display: block;
@@ -659,7 +653,7 @@ text-indent: 3rem;
   position: absolute;
   width: 28rem;
   right: 2rem;
-  top: 41vh;
+  top: 40.5%;
 }
 .mySwiper3 {
   display: none;
@@ -679,7 +673,7 @@ box-sizing: border-box;
   left: -1rem;
 top: -3%;
 width: 27rem;
-height: 42vh;
+height: 35rem;
 }
 
 .swiper-slide {
@@ -1087,10 +1081,6 @@ left: -2%;
 .line-art2 {
   left: 14%;
 }
-.line-art5 {
-  width: 26rem;
-  right: 2rem;
-}
 .nav-bar {
   width: 60%;
 }
@@ -1098,11 +1088,11 @@ left: -2%;
   width: 100%;
 }
 .info-title {
-  top: -22%;
+  top: -24vh;
   width: 55%;
 }
 .box-content {
-  top: -22%;
+  top: -24vh;
   width: 90%;
 }
 .hero-content {
@@ -1112,44 +1102,32 @@ left: -2%;
   top: -20%;
 }
 .box-content2 {
-  height: 11rem;
+  height: 12rem;
 }
 .info-title2 {
   height: 3rem;
 }
-.line-art5 {
-  top: 67%;
-}
 .line-art8 {
   position: absolute;
   left: -61vw;
-  top: 32%
-}
-.line-art9 {
-  right: 29vw;
-  top: 37%;
-}
-.line-art10 {
-  top: 37%;
-  left: -82vw;
+  top: 30rem;
 }
 .line-art12 {
   top: 12vh;
 }
 .line-art13 {
-  top: 34.5%;
+  top: 36vh;
 }
 .line-art16 {
   top: 31vh;
 }
 .line-art17 {
-  top: 87%;
+  top: 78.5vh;
 }
 .line-art19 {
   margin-top: 3.5vh;
 }
 .pg2-box-content {
-  z-index: 2;
   height: 38vh;
   width: 85%;
   top: 0;
