@@ -673,7 +673,7 @@ box-sizing: border-box;
   left: -1rem;
 top: -3%;
 width: 27rem;
-height: 35rem;
+height: 34rem;
 }
 
 .swiper-slide {
@@ -1073,13 +1073,15 @@ border-radius: 15px;
     left: .5rem;
   }
 .line-art1 {
-  right: 13%;
+  right: 10vw;
+  top: 47vh;
 }
 .line-art0 {
 left: -2%;
 }
 .line-art2 {
-  left: 14%;
+  left: 14vw;
+  top: 43vh;
 }
 .nav-bar {
   width: 60%;
@@ -1088,11 +1090,11 @@ left: -2%;
   width: 100%;
 }
 .info-title {
-  top: -25vh;
+  top: -23vh;
   width: 55%;
 }
 .box-content {
-  top: -25vh;
+  top: -23vh;
   width: 90%;
 }
 .hero-content {
@@ -1100,9 +1102,10 @@ left: -2%;
 }
 .aimee-img1 {
   height: 34%;
+  margin-bottom: 0;
 }
 .info-title2, .box-content2 {
-  top: -23vh;
+  top: -22vh;
 }
 .box-content2 {
   height: 12rem;
@@ -1119,7 +1122,7 @@ left: -2%;
   top: 12vh;
 }
 .line-art13 {
-  margin-top: -6.5vh;
+  top: 34%;
 }
 .line-art16 {
   top: 31vh;
@@ -1260,7 +1263,7 @@ svg {
 }
 .flower-svg {
   position: relative;
-  top: 12vh;
+  top: 13vh;
 }
 .flower-svg2 {
   position: absolute;
