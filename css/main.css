@@ -327,7 +327,7 @@ position: relative;
 align-self: center;
 top: -23rem;
 height: 33%;
-width: 66%;
+width: 63%;
 border-radius: 1.5rem;
 border: 1px solid #f5f5f5;
 margin-bottom: 4%;
@@ -1088,18 +1088,21 @@ left: -2%;
   width: 100%;
 }
 .info-title {
-  top: -24vh;
+  top: -25vh;
   width: 55%;
 }
 .box-content {
-  top: -24vh;
+  top: -25vh;
   width: 90%;
 }
 .hero-content {
   margin-right: 1rem;
 }
+.aimee-img1 {
+  height: 34%;
+}
 .info-title2, .box-content2 {
-  top: -20%;
+  top: -23vh;
 }
 .box-content2 {
   height: 12rem;
@@ -1116,13 +1119,10 @@ left: -2%;
   top: 12vh;
 }
 .line-art13 {
-  top: 36vh;
+  margin-top: -6.5vh;
 }
 .line-art16 {
   top: 31vh;
-}
-.line-art17 {
-  top: 78.5vh;
 }
 .line-art19 {
   margin-top: 3.5vh;
