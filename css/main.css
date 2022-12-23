@@ -150,6 +150,7 @@ display: block;
   height: 100%;
 }
 .logo-container {
+  display: flex;
   position: relative;
   top: 3rem;
   left: 1.5rem;
@@ -168,7 +169,7 @@ display: block;
 .aimee-Oki {
   display: flex;
   border: 1px solid #00563B;
-  width: 17rem;
+  width: 14rem;
   height: 4rem;
   align-items: center;
   padding-left: .5rem;
@@ -181,15 +182,15 @@ display: block;
 .aimee-text {
   font-family: poppins;
   font-weight: 700;
-  font-size: 3rem;
+  font-size: 2.6rem;
   white-space: nowrap;
 }
 
 .foundation {
   display: flex;
   position: relative;
-  left: 7rem;
-  width: 22rem;
+  left: 2rem;
+  width: 19rem;
   height: 4rem;
   background-color: #00563B;
   color: #f5f5f5;
@@ -201,9 +202,28 @@ display: block;
 .foundation-text {
   font-family: poppins;
   font-weight: 700;
-  font-size: 3rem;
+  font-size: 2.6rem;
   white-space: nowrap;
   letter-spacing: .25rem;
+}
+.heart-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: 10%;
+  width: 7.5rem;
+  height: 7.5rem;
+  position: relative;
+  border-radius: 100%;
+  background-color: #f5f5f5;
+  border: 2.5px solid #00563B;
+}
+.heart {
+  position: relative;
+  top: 10%;
+  right: 2%;
+  width: 10rem;
+  height: 10rem;
 }
 
 /* navbar section */
@@ -1612,7 +1632,7 @@ left: 4rem;
 .line-art0, .line-art1, .line-art2, .line-art3, .line-art4, 
 .line-art5, .line-art7, .line-art8, .line-art9, .line-art10,
 .line-art11, .line-art12, .line-art13, .line-art14, .line-art15, 
-.line-art16, .line-art17, .line-art18, .line-art19{
+.line-art16, .line-art17, .line-art18, .line-art19, .heart-container{
   display: none;
 }
 .desktop-svg1, .desktop-svg2, .desktop-svg3, .desktop-svg4, 
