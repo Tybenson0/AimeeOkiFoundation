@@ -109,8 +109,9 @@ display: block;
   position: absolute;
   height: 20rem;
   width: 30rem;
-  left: -22rem;
-  top: 8rem;
+  left: -1vw;
+  top: 10rem;
+  transform: scaleX(-1);
 }
 .line-art1 {
   position: absolute;
@@ -211,19 +212,19 @@ display: block;
   align-items: center;
   justify-content: center;
   left: 10%;
-  width: 7.5rem;
-  height: 7.5rem;
+  width: 6rem;
+  height: 6rem;
   position: relative;
   border-radius: 100%;
   background-color: #f5f5f5;
-  border: 2.5px solid #00563B;
+  border: 2px solid #00563B;
 }
 .heart {
   position: relative;
   top: 10%;
-  right: 2%;
-  width: 10rem;
-  height: 10rem;
+  right: 4%;
+  width: 8.5rem;
+  height: 8.5rem;
 }
 
 /* navbar section */
@@ -1097,7 +1098,8 @@ border-radius: 15px;
   top: 49vh;
 }
 .line-art0 {
-left: -2%;
+left: -1vw;
+top: 12vh;
 }
 .line-art2 {
   left: 14vw;
@@ -1199,34 +1201,45 @@ svg {
 }
 .logo-container {
   position: relative;
-  top: 4rem;
+  top: 2rem;
   width: 24rem;
   height: 20rem;
 }
 .aimee-Oki {
-  width: 68%;
-  height: 20%;
+  width: 14rem;
+  height: 3.5rem;
 }
 .aimee-text {
   letter-spacing: 20px;
-  font-size: 3rem;
+  font-size: 2.6rem;
   letter-spacing: 0;
 }
 .foundation {
-  width: 90%;
-  height: 20%;
-  left: 4rem;
+  width: 19rem;
+  height: 3.5rem;
+  left: 2rem;
 }
 .foundation-text {
-  font-size: 3rem;
+  font-size: 2.6rem;
   letter-spacing: 3px;
+}
+.heart-container {
+  width: 5rem;
+  height: 5rem;
+  left: 13%;
+  top: 3%;
+}
+.heart {
+  height: 7rem;
+  width: 7rem;
+  right: 3%;
 }
 
 .nav-menu, .navbar {
   top: -9rem;
   float: right;
   right: -10rem;
-  width: 97%;
+  width: 83%;
   height: 4rem;
 }
 .nav-menu {
@@ -1632,7 +1645,7 @@ left: 4rem;
 .line-art0, .line-art1, .line-art2, .line-art3, .line-art4, 
 .line-art5, .line-art7, .line-art8, .line-art9, .line-art10,
 .line-art11, .line-art12, .line-art13, .line-art14, .line-art15, 
-.line-art16, .line-art17, .line-art18, .line-art19, .heart-container{
+.line-art16, .line-art17, .line-art18, .line-art19{
   display: none;
 }
 .desktop-svg1, .desktop-svg2, .desktop-svg3, .desktop-svg4, 
@@ -1715,6 +1728,16 @@ left: 4rem;
   letter-spacing: 5px;
   margin-left: 5px;
 }
+.heart-container {
+  left: 22%;
+  width: 7rem;
+  height: 7rem;
+  top: 8%;
+}
+.heart {
+  width: 10rem;
+  height: 10rem;
+}
 .hamburger-container, .hamburger{
   display: none;
 }
@@ -1722,7 +1745,7 @@ left: 4rem;
   top: -9rem;
   float: right;
   right: -12rem;
-  width: 83%;
+  width: 77%;
   height: 5.5rem;
 }
 .nav-menu {
