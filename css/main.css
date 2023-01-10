@@ -1873,7 +1873,7 @@ left: 4rem;
   font-size: 2rem;
 }
 .next-page {
-  right: 2rem;
+  left: -2rem;
   top: -4.75rem;
   width: 30rem;
   gap: 5rem;
