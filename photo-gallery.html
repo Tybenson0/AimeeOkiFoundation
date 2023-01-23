@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="/css/main.css" />
     <link rel="stylesheet" href="/css/photo-gallery.css" />
   </head>
-  <body class="green-gallery">
+  <body class="green-gallery" onload="getPics()">
     <div class="title-box">
       <a href="/index.html#CE">
         <div class="back-container">
@@ -141,5 +141,8 @@
         </svg>
       </div>
     </a>
+    <div id="fullpage" onclick="this.style.display='none';"></div>
+
+    <script src="/js/gallery.js"></script>
   </body>
 </html>

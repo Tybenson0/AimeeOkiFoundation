@@ -446,7 +446,6 @@ float: right;
 right: 1%;
 width: 20rem;
 height: 5rem;
-white-space: nowrap;
 gap: 4rem;
 }
 .down-arrow {
@@ -1886,7 +1885,7 @@ left: 4rem;
   font-size: 2rem;
 }
 .next-page {
-  left: -2rem;
+  left: .15rem;
   top: -4.75rem;
   width: 30rem;
   gap: 5rem;
@@ -1925,11 +1924,14 @@ left: 4rem;
   top: 5rem;
   right: -10rem;
 }
+.aimees-story {
+  letter-spacing: 0;
+}
 .next-page2 {
   position: relative;
   top: -.5rem;
-  left: -3.75rem;
-  gap: 0rem;
+  left: -2.5rem;
+  gap: 3rem;
 }
 .page-cover {
   position: relative;
@@ -2101,8 +2103,8 @@ left: 4rem;
 }
 .next-page4 {
   top: -.8rem;
-  left: -3.25rem;
-  gap: .5rem;
+  left: -1.75rem;
+  gap: 3rem;
 }
 .desktop-svg13 {
   position: absolute;
@@ -2179,8 +2181,8 @@ left: 4rem;
 }
 .next-page5 {
   top: -.5rem;
-  left: .5rem;
-  gap: 5rem;
+  left: 1.25rem;
+  gap: 6rem;
 }
 .desktop-svg18 {
   position: absolute;
@@ -2264,7 +2266,7 @@ left: 4rem;
 }
 .next-page6 {
   top: -.75rem;
-  left: -1rem;
+  left: .75rem;
   gap: 6rem;
 }
 .email-container {
@@ -2330,6 +2332,7 @@ left: 4rem;
   height: 2rem;
   text-decoration: none;
 }
+
 }
 
 @media only screen and (min-width: 1700px) {
@@ -2356,25 +2359,29 @@ left: 4rem;
   .header-2 {
     font-size: 2rem;
   }
+  .aimees-story {
+    letter-spacing: 0;
+  }
   .next-page {
     gap: 3rem;
-    right: -1rem;
+    left: .75rem;
     top: -5.5rem;
+    
   }
   .next-page2 {
-    gap: 5.5rem;
-    left: -3.75rem;
-    top: -.75rem;
+    gap: 4rem;
+    left: -3rem;
+    top: -.5rem;
   }
   .next-page4 {
     top: -.75rem;
-    left: -1rem;
+    left: -.75rem;
     gap: 1rem;
     justify-self: right;
   }
   .next-page5 {
     top: -.5rem;
-    right: -1.5rem;
+    left: 1.5rem;
     gap: 6rem;
   }
   .next-page6 {
