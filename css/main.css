@@ -24,6 +24,9 @@ html, body {
 .page-6 {
   margin-top: -5rem;
 }
+.scroll {
+  overflow-y: scroll;
+}
 body {
   min-height: 100vh;
   width: 100vw;
@@ -1162,11 +1165,14 @@ top: 12vh;
   top: 0;
 }
 .swiper {
-  height: 35.5rem;
+  height: 36.5rem;
   width: 25rem;
 }
 .community-text {
   font-size: 1.1rem;
+}
+.annoying {
+  font-size: 1rem;
 }
 .textbox-container {
   position: relative;
@@ -1480,7 +1486,7 @@ svg {
   display: inline;
 }
 .swiper {
-  height: 41rem;
+  height: 42rem;
   position: static;
 }
 .mySwiper {
