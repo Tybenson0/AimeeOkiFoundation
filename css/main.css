@@ -1622,10 +1622,14 @@ left: 4rem;
 }
 }
 @media only screen and (min-width: 1300px) {
+  
 .background {
   margin-top: -4rem;
   clip-path: polygon(77% 0, 100% 0, 100% 100%, 0% 100%, 0 5%, 77% 5%);
   height: 108vh;
+}
+.pg-2 {
+  clip-path: polygon(82% 0, 100% 0, 100% 100%, 0% 100%, 0 5%, 82% 5%);
 }
 .hidden {
   display: none;
@@ -1639,6 +1643,21 @@ left: 4rem;
 .background-longer {
   
   clip-path: polygon(76% 0, 100% 0, 100% 100%, 0% 100%, 0 5%, 76% 5%);
+}
+.pg-2 {
+  clip-path: polygon(82% 0, 100% 0, 100% 100%, 0% 100%, 0 5%, 82% 5%);
+}
+.pg-3 {
+  clip-path: polygon(79% 0, 100% 0, 100% 100%, 0% 100%, 0 5%, 79% 5%);
+}
+.pg-4 {
+  clip-path: polygon(80% 0, 100% 0, 100% 100%, 0% 100%, 0 5%, 80% 5%);
+}
+.pg-5 {
+  clip-path: polygon(83% 0, 100% 0, 100% 100%, 0% 100%, 0 5%, 83% 5%);
+}
+.pg-6 {
+  clip-path: polygon(81% 0, 100% 0, 100% 100%, 0% 100%, 0 5%, 81% 5%);
 }
 .container {
   width: 80%;
@@ -1799,9 +1818,13 @@ left: 4rem;
   position: absolute;
   float: right;
   right: 12rem;
-  top: -8rem;
-  width: 28%;
-  height: 65%;
+  top: -6rem;
+  width: 30%;
+  height: 62%;
+}
+.aimee-with-friend {
+  width: 58%;
+  right: 0rem;
 }
 .info-title, .box-content {
   border: none;
@@ -1944,13 +1967,14 @@ left: 4rem;
   position: absolute;
 }
 .flower-svg3 {
-  right: -2vw;
+  left: 22vw;
   top: -18vh;
   width: 25rem;
 }
 .flower-svg4 {
-  right: 27vw;
-  top: 31vh;
+  right: 20vw;
+  left: -7vw;
+  top: 30vh;
   transform: scaley(-1);
   width: 30rem;
 }
@@ -2011,7 +2035,7 @@ left: 4rem;
 }
 .line1 {
   top: 24%;
-  left: 27%;
+  left: 28%;
   width: 14%;
   height: 13%;
 }
@@ -2256,9 +2280,13 @@ left: 4rem;
 }
 .resources-imgs {
   height: 44%;
-  width: 60%;
+  width: 65%;
   border-radius: 1.8rem;
   margin-bottom: 3rem;
+}
+.second-r {
+  position: relative;
+  right: 1.5rem;
 }
 .resources-text {
   font-size: 1.6rem;
@@ -2489,7 +2517,7 @@ left: 4rem;
   .flower-svg4 {
     width: 33rem;
     top: 48%;
-    left: -8vw;
+    left: -10vw;
   }
   .line-art6 {
    height: 95rem;
