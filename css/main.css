@@ -1167,6 +1167,10 @@ top: 12vh;
 .swiper {
   height: 36.5rem;
   width: 26rem;
+  top: -1vh;
+}
+.mySwiper2 {
+  top: -2.5vh;
 }
 .community-text {
   font-size: 1.1rem;
