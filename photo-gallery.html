@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Gallery-Aimee-Oki</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -13,136 +13,250 @@
     />
     <link rel="stylesheet" href="/css/main.css" />
     <link rel="stylesheet" href="/css/photo-gallery.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body class="green-gallery" onload="getPics()">
-    <div class="title-box">
-      <a href="/index.html#CE">
-        <div class="back-container">
-          <svg class="back-arrow">
-            <use href="/svgs/sprite (1).svg#down-arrow"></use>
-          </svg>
-        </div>
-      </a>
+    <a href="/index.html#CE">
+      <div class="back-container" data-aos="fade-right" data-aos-duration="250">
+        <svg class="back-arrow">
+          <use href="/svgs/sprite (1).svg#down-arrow"></use>
+        </svg>
+      </div>
+    </a>
+    <!-- <div class="title-box">  -- spare div for nellie gale
       <div class="title-back">
-        <h1 class="gallery-title">Event Image Gallery 1</h1>
+        <h1 class="gallery-title">Nell Gail</h1>
       </div>
     </div>
     <div class="gallery">
       <figure class="gallery__item gallery__item--1">
-        <img src="/imgs/golf.jpg" class="gallery__img" alt="Image 1" />
+        <img src="/photo-gallery/" class="gallery__img" alt="Image 1" />
       </figure>
       <figure class="gallery__item gallery__item--2">
-        <img src="/imgs/golf.jpg" class="gallery__img" alt="Image 2" />
+        <img src="/photo-gallery/" class="gallery__img" alt="Image 2" />
       </figure>
       <figure class="gallery__item gallery__item--3">
-        <img src="/imgs/golf.jpg" class="gallery__img" alt="Image 3" />
+        <img src="/photo-gallery/" class="gallery__img" alt="Image 3" />
       </figure>
       <figure class="gallery__item gallery__item--4">
-        <img src="/imgs/golf.jpg" class="gallery__img" alt="Image 4" />
+        <img src="/photo-gallery/" class="gallery__img" alt="Image 4" />
       </figure>
       <figure class="gallery__item gallery__item--5 hidden">
-        <img src="/imgs/golf.jpg" class="gallery__img" alt="Image 4" />
+        <img src="/photo-gallery/" class="gallery__img" alt="Image 4" />
       </figure>
       <figure class="gallery__item gallery__item--6 hidden">
-        <img src="/imgs/golf.jpg" class="gallery__img" alt="Image 4" />
+        <img src="/photo-gallery/" class="gallery__img" alt="Image 4" />
       </figure>
       <figure class="gallery__item gallery__item--7 hidden">
-        <img src="/imgs/golf.jpg" class="gallery__img" alt="Image 4" />
+        <img src="/photo-gallery/" class="gallery__img" alt="Image 4" />
       </figure>
-    </div>
+    </div> -->
+    <!--
     <div class="title-box">
       <div class="title-back">
-        <h1 class="gallery-title">Event Image Gallery 2</h1>
+        <h1 class="gallery-title">Notre Dame Speaker</h1>
       </div>
     </div>
-    <div class="gallery">
+     <div class="gallery">   --spare div for notre dame gallery
       <figure class="gallery__item gallery__item--1">
-        <img src="/imgs/golf.jpg" class="gallery__img" alt="Image 1" />
+        <img src="/photo-gallery" class="gallery__img" alt="Image 1" />
       </figure>
       <figure class="gallery__item gallery__item--2">
-        <img src="/imgs/golf.jpg" class="gallery__img" alt="Image 2" />
+        <img src="/photo-gallery/" class="gallery__img" alt="Image 2" />
       </figure>
       <figure class="gallery__item gallery__item--3">
-        <img src="/imgs/golf.jpg" class="gallery__img" alt="Image 3" />
+        <img src="/photo-gallery/" class="gallery__img" alt="Image 3" />
       </figure>
       <figure class="gallery__item gallery__item--4">
-        <img src="/imgs/golf.jpg" class="gallery__img" alt="Image 4" />
+        <img src="/photo-gallery/" class="gallery__img" alt="Image 4" />
       </figure>
       <figure class="gallery__item gallery__item--5 hidden">
-        <img src="/imgs/golf.jpg" class="gallery__img" alt="Image 4" />
+        <img src="/photo-gallery/" class="gallery__img" alt="Image 4" />
       </figure>
       <figure class="gallery__item gallery__item--6 hidden">
-        <img src="/imgs/golf.jpg" class="gallery__img" alt="Image 4" />
+        <img src="/photo-gallery/" class="gallery__img" alt="Image 4" />
       </figure>
       <figure class="gallery__item gallery__item--7 hidden">
-        <img src="/imgs/golf.jpg" class="gallery__img" alt="Image 4" />
+        <img src="/photo-gallery/" class="gallery__img" alt="Image 4" />
       </figure>
-    </div>
-    <div class="title-box">
+    </div> -->
+    <div class="title-box" data-aos="fade-right" data-aos-duration="500">
       <div class="title-back">
-        <h1 class="gallery-title">Event Image Gallery 3</h1>
+        <h1 class="gallery-title">AOF Memorial Hike</h1>
       </div>
     </div>
-    <div class="gallery">
+    <div
+      class="gallery"
+      data-aos="fade-right"
+      data-aos-anchor="#example-anchor"
+      data-aos-offset="500"
+      data-aos-duration="1000"
+    >
       <figure class="gallery__item gallery__item--1">
-        <img src="/imgs/golf.jpg" class="gallery__img" alt="Image 1" />
+        <img
+          src="/photo-gallery/8A8896E1-E390-4CD9-B326-E33EDB42B251.webp"
+          class="gallery__img"
+          alt="Image 1"
+        />
       </figure>
       <figure class="gallery__item gallery__item--2">
-        <img src="/imgs/golf.jpg" class="gallery__img" alt="Image 2" />
+        <img
+          src="/photo-gallery/613C1CAA-DBFA-4D9A-B65C-86D5F31D31F8.webp"
+          class="gallery__img"
+          alt="Image 2"
+        />
       </figure>
       <figure class="gallery__item gallery__item--3">
-        <img src="/imgs/golf.jpg" class="gallery__img" alt="Image 3" />
+        <img
+          src="photo-gallery/IMG_2598.webp"
+          class="gallery__img"
+          alt="Image 3"
+        />
       </figure>
       <figure class="gallery__item gallery__item--4">
-        <img src="/imgs/golf.jpg" class="gallery__img" alt="Image 4" />
+        <img
+          src="/photo-gallery/9A672FE1-E79F-4652-A6A1-E06FB41B7A71.webp"
+          class="gallery__img"
+          alt="Image 4"
+        />
       </figure>
-      <figure class="gallery__item gallery__item--5 hidden">
-        <img src="/imgs/golf.jpg" class="gallery__img" alt="Image 4" />
+      <figure class="gallery__item gallery__item--5">
+        <img
+          src="/photo-gallery/IMG_0004.webp"
+          class="gallery__img"
+          alt="Image 4"
+        />
       </figure>
-      <figure class="gallery__item gallery__item--6 hidden">
-        <img src="/imgs/golf.jpg" class="gallery__img" alt="Image 4" />
+      <figure class="gallery__item gallery__item--6">
+        <img
+          src="/photo-gallery/IMG_2588.webp"
+          class="gallery__img"
+          alt="Image 4"
+        />
       </figure>
-      <figure class="gallery__item gallery__item--7 hidden">
-        <img src="/imgs/golf.jpg" class="gallery__img" alt="Image 4" />
+      <figure class="gallery__item gallery__item--7">
+        <img
+          src="/photo-gallery/B54EF8A1-5D52-4044-9CD7-EED1A4D72C21.webp"
+          class="gallery__img"
+          alt="Image 4"
+        />
+      </figure>
+      <figure class="gallery__item gallery__item--8">
+        <img
+          src="/photo-gallery/IMG_5150.webp"
+          class="gallery__img"
+          alt="Image 4"
+        />
+      </figure>
+      <figure class="gallery__item gallery__item--9 hidden">
+        <img
+          src="/photo-gallery/IMG_5156.webp"
+          class="gallery__img"
+          alt="Image 4"
+        />
+      </figure>
+      <figure class="gallery__item gallery__item--10 hidden">
+        <img
+          src="/photo-gallery/IMG_5131.webp"
+          class="gallery__img"
+          alt="Image 4"
+        />
       </figure>
     </div>
-    <div class="title-box">
+    <div class="title-box" data-aos="fade-right" data-aos-duration="500">
       <div class="title-back">
-        <h1 class="gallery-title">Event Image Gallery 4</h1>
+        <h1 class="gallery-title">AOF Golf Tournament</h1>
       </div>
     </div>
-    <div class="gallery">
+    <div class="gallery" data-aos="fade-right">
       <figure class="gallery__item gallery__item--1">
-        <img src="/imgs/golf.jpg" class="gallery__img" alt="Image 1" />
+        <img
+          src="/photo-gallery/IMG_0032.webp"
+          class="gallery__img"
+          alt="Image 1"
+        />
       </figure>
       <figure class="gallery__item gallery__item--2">
-        <img src="/imgs/golf.jpg" class="gallery__img" alt="Image 2" />
+        <img
+          src="/photo-gallery/IMG_0006.webp"
+          class="gallery__img"
+          alt="Image 2"
+        />
       </figure>
       <figure class="gallery__item gallery__item--3">
-        <img src="/imgs/golf.jpg" class="gallery__img" alt="Image 3" />
+        <img
+          src="/photo-gallery/IMG_0009.webp"
+          class="gallery__img"
+          alt="Image 3"
+        />
       </figure>
       <figure class="gallery__item gallery__item--4">
-        <img src="/imgs/golf.jpg" class="gallery__img" alt="Image 4" />
+        <img
+          src="/photo-gallery/IMG_0021.webp"
+          class="gallery__img"
+          alt="Image 4"
+        />
       </figure>
-      <figure class="gallery__item gallery__item--5 hidden">
-        <img src="/imgs/golf.jpg" class="gallery__img" alt="Image 4" />
+      <figure class="gallery__item gallery__item--5">
+        <img
+          src="/photo-gallery/IMG_0023.webp"
+          class="gallery__img"
+          alt="Image 4"
+        />
       </figure>
-      <figure class="gallery__item gallery__item--6 hidden">
-        <img src="/imgs/golf.jpg" class="gallery__img" alt="Image 4" />
+      <figure class="gallery__item gallery__item--6">
+        <img
+          src="/photo-gallery/IMG_6225.webp"
+          class="gallery__img"
+          alt="Image 4"
+        />
       </figure>
-      <figure class="gallery__item gallery__item--7 hidden">
-        <img src="/imgs/golf.jpg" class="gallery__img" alt="Image 4" />
+      <figure class="gallery__item gallery__item--7">
+        <img
+          src="/photo-gallery/IMG_0041.webp"
+          class="gallery__img"
+          alt="Image 4"
+        />
+      </figure>
+      <figure class="gallery__item gallery__item--8">
+        <img
+          src="/photo-gallery/IMG_0001.webp"
+          class="gallery__img"
+          alt="Image 4"
+        />
+      </figure>
+      <figure class="gallery__item gallery__item--9 hidden">
+        <img
+          src="/photo-gallery/IMG_0028.webp"
+          class="gallery__img"
+          alt="Image 4"
+        />
+      </figure>
+      <figure class="gallery__item gallery__item--10 hidden">
+        <img
+          src="/photo-gallery/IMG_0026.webp"
+          class="gallery__img"
+          alt="Image 4"
+        />
       </figure>
     </div>
     <a href="/index.html#CE">
       <div class="back-container2">
         <svg class="back-arrow">
-          <use href="/svgs/sprite (1).svg#down-arrow"></use>
+          <use
+            href="/svgs/sprite (1).svg#down-arrow"
+            data-aos="fade-right"
+            data-aos-duration="500"
+          ></use>
         </svg>
       </div>
     </a>
     <div id="fullpage" onclick="this.style.display='none';"></div>
 
     <script src="/js/gallery.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

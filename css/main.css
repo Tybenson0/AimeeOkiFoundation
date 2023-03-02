@@ -1166,7 +1166,7 @@ top: 12vh;
 }
 .swiper {
   height: 36.5rem;
-  width: 25rem;
+  width: 26rem;
 }
 .community-text {
   font-size: 1.1rem;
@@ -1486,9 +1486,10 @@ svg {
   display: inline;
 }
 .swiper {
-  height: 42rem;
+  height: 44.5rem;
   position: static;
 }
+
 .mySwiper {
   position: relative;
   top: 8vh;
