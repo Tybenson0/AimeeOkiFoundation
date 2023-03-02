@@ -141,6 +141,22 @@ figure {
     grid-row-start: 9;
     grid-row-end: 11;
 }
+#fullpage {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-size: contain;
+    background-repeat: no-repeat no-repeat;
+    background-position: center center;
+    background-color: black;
+  }
+  #fullpage:hover {
+    cursor: zoom-out;
+  }
 
 @media only screen and (min-width: 700px) {
     html, body {
