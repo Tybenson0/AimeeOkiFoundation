@@ -233,7 +233,9 @@ display: block;
   width: 8.5rem;
   height: 8.5rem;
 }
-
+.click-here {
+  display: none;
+}
 /* navbar section */
 
 .navbar {
@@ -1133,9 +1135,9 @@ top: 12vh;
   margin-right: 1rem;
 }
 .aimee-img1 {
-  height: 34%;
+  height: 98%;
   width: 78%;
-  right: 1.5rem;
+  right: -2.5rem;
   margin-bottom: 0;
 }
 .info-title2, .box-content2 {
@@ -1700,8 +1702,14 @@ left: 4rem;
 .desktop-svg9, .desktop-svg10, .desktop-svg11, .desktop-svg12,
 .desktop-svg13, .desktop-svg14, .desktop-svg15, .desktop-svg16,
 .desktop-svg17, .desktop-svg18, .desktop-svg19, .desktop-svg20,
-.desktop-svg21, .desktop-svg22, .desktop-svg23{
+.desktop-svg21, .desktop-svg22, .desktop-svg23, .click-here{
   display: block;
+}
+.click-here {
+  position: absolute;
+  right: 24vw;
+  top: -13vh;
+  width: 38rem;
 }
 .desktop-svg1 {
   position: relative;
