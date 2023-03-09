@@ -25,7 +25,12 @@ var swiper = new Swiper(".mySwiper3", {
 	grabCursor: true,
   });
 
-
+  function loadVideo1() {
+	var videoEl = document.getElementsByTagName('video')[0];
+	var sourceEl = videoEl.getElementsByTagName('source')[0];
+	sourceEl.src = 'the_aimee_oki_foundation (720p).mp4';
+	videoEl.load();
+   }
   
   
 
