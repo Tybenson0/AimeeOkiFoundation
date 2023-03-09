@@ -356,7 +356,7 @@ top: 3rem;
   z-index: 9999;
 position: relative;
 align-self: center;
-top: -26rem;
+top: -23rem;
 height: 27%;
 width: 63%;
 border-radius: 0rem;
@@ -1111,7 +1111,7 @@ border-radius: 15px;
 }
 .line-art0 {
 left: -1vw;
-top: 12vh;
+top: 14vh;
 }
 .line-art2 {
   left: 14vw;
@@ -1135,8 +1135,8 @@ top: 12vh;
   margin-right: 1rem;
 }
 .aimee-img1 {
-  height: 30%;
-  width: 88%;
+  height: 26%;
+  width: 82%;
   right: 1rem;
   margin-bottom: 0;
 }
@@ -1842,10 +1842,10 @@ left: 4rem;
   align-self: center;
   position: absolute;
   float: right;
-  right: 7rem;
-  top: -3vh;
-  width: 42vw;
-  height: 52vh;
+  right: 9rem;
+  top: -5vh;
+  width: 36vw;
+  height: 58vh;
 }
 .aimee-with-friend {
   width: 58%;
