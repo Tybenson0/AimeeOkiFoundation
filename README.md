@@ -18,7 +18,7 @@
     <br />
     <br />
     <br />
-    <a href="https://aimeeokifoundation.com">View Demo</a>
+    <a href="https://aimee-oki-foundation.vercel.app/">View Live Site</a>
     ·
     <a href="https://github.com/Tybenson0/AimeeOki/issues">Report Bug</a>
     ·
@@ -108,6 +108,10 @@ The Aimee Oki Foundation was built with Html, CSS, and Javascript.
 ## Getting Started
 
 Clone the project to your local machine!
+
+OR
+
+View the live site at https://aimee-oki-foundation.vercel.app/
 
 <br />
 
